@@ -1,0 +1,12 @@
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Study\PTTKPM\Nhom3_QLDiemDung\BusinessLayer\obj\Debug\BusinessLayer.pdb

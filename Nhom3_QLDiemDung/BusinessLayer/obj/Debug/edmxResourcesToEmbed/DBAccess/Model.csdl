@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ROUTE_MANAGEMENTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BusRoute">
+    <Key>
+      <PropertyRef Name="BusRouteID" />
+    </Key>
+    <Property Name="BusRouteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RouteNumber" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RouteName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ResponsibleUnitID" Type="Int32" Nullable="false" />
+    <Property Name="OperationType" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OperationTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Fare" Type="Int32" Nullable="false" />
+    <Property Name="BusesAmount" Type="Int32" Nullable="false" />
+    <Property Name="BusesTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BusesSpace" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="BusStop">
+    <Key>
+      <PropertyRef Name="BusStopID" />
+    </Key>
+    <Property Name="BusStopID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BusStopName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BusStopDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Latitude" Type="Double" Nullable="false" />
+    <Property Name="Longitude" Type="Double" Nullable="false" />
+    <Property Name="Street" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Wards" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="District" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ROUTE_MANAGEMENTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BusRoutes" EntityType="Self.BusRoute" />
+    <EntitySet Name="BusStops" EntityType="Self.BusStop" />
+  </EntityContainer>
+</Schema>

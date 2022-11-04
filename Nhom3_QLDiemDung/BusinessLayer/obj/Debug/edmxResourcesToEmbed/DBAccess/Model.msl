@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ROUTE_MANAGEMENTModelStoreContainer" CdmEntityContainer="ROUTE_MANAGEMENTEntities">
+    <EntitySetMapping Name="BusRoutes">
+      <EntityTypeMapping TypeName="ROUTE_MANAGEMENTModel.BusRoute">
+        <MappingFragment StoreEntitySet="BusRoutes">
+          <ScalarProperty Name="BusRouteID" ColumnName="BusRouteID" />
+          <ScalarProperty Name="RouteNumber" ColumnName="RouteNumber" />
+          <ScalarProperty Name="RouteName" ColumnName="RouteName" />
+          <ScalarProperty Name="ResponsibleUnitID" ColumnName="ResponsibleUnitID" />
+          <ScalarProperty Name="OperationType" ColumnName="OperationType" />
+          <ScalarProperty Name="OperationTime" ColumnName="OperationTime" />
+          <ScalarProperty Name="Fare" ColumnName="Fare" />
+          <ScalarProperty Name="BusesAmount" ColumnName="BusesAmount" />
+          <ScalarProperty Name="BusesTime" ColumnName="BusesTime" />
+          <ScalarProperty Name="BusesSpace" ColumnName="BusesSpace" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BusStops">
+      <EntityTypeMapping TypeName="ROUTE_MANAGEMENTModel.BusStop">
+        <MappingFragment StoreEntitySet="BusStop">
+          <ScalarProperty Name="BusStopID" ColumnName="BusStopID" />
+          <ScalarProperty Name="BusStopName" ColumnName="BusStopName" />
+          <ScalarProperty Name="BusStopDescription" ColumnName="BusStopDescription" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="Wards" ColumnName="Wards" />
+          <ScalarProperty Name="District" ColumnName="District" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
